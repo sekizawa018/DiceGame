@@ -55,10 +55,13 @@ public class Main{
 					return;
 				}
 			}else if(num==2){
-				System.out.print("ターン終了");
+				System.out.println("ターン終了");
+				System.out.println("Press Enter");
+				sc.nextLine();
+				sc.nextLine();
 				return;
 			}else{
-				System.out.print("番号が違います");
+				System.out.println("番号が違います");
 			}
 		}
 	}
