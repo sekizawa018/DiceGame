@@ -30,6 +30,8 @@ public class Main{
 		}else{
 			System.out.println("サイコロの目は"+ran);
 			System.out.printf("残念!(%d)%n",pp[i]);
+			System.out.println("Press Enter");
+			sc.nextLine();
 			return;
 		}
 		while(true){
